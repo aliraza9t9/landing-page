@@ -1,0 +1,15 @@
+
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 5px 5px ;
+    color: black;
+    height: 28px;
+    cursor: pointer;
+    display: flex;
+    margin-top :34px;
+margin-left:6px;
+}

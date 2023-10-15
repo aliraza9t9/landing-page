@@ -1,0 +1,114 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Pragati+Narrow&display=swap');
+</style>
+
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  background-color: #2874f0;
+  }
+
+ 
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 58px;
+}
+nav{
+  display: flex;
+  
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 234px;
+  padding: 0 0;
+}
+nav ul li{
+  list-style: none;
+  padding: 0 13px;
+}
+
+
+ nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color: rgb(8, 8, 8);
+  font-weight: bolder;
+}
+.search{
+  display: flex;
+  align-items: center;
+  
+}
+.search input{
+  height: 49px;
+  width: 238px;
+  border-radius: 5px;
+  margin: 0,16px 0,56px;
+  padding: 0 12px;
+}
+.container{
+  min-height: calc(100vh - 58px - 12vh);
+  background-image: url(daniele-colucci-jIrN_E4EZf0-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer
+{
+    background-color: #2874f0;
+    color: white;
+    height: 12vh;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Pragati Narrow', sans-serif;
+}
+.bgimg
+{
+  width: 83.3rem;
+  height: 49.2rem;
+ 
+background-repeat: no-repeat;
+}
+.bat{
+  width:12rem;
+  height: 9;
+  background-repeat: no-repeat;
+
+}
+.card{
+  max-width: 20vw;
+  
+  
+}
+.my-2{
+  margin: 26px,12px;
+  
+}
+.text-center{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.lines{
+  width: 12rem;
+ display: inline;
+ align-items: center;
+ flex-direction: row;
+
+}
+.card-item{
+  margin: 12px;
+  padding: 12px;
+  display:flex;
+ justify-content: center;
+ flex-direction: row;
+}
